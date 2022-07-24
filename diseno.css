@@ -1,0 +1,23 @@
+h1{color:aliceblue;
+    text-align: center; }
+
+a{color:chartreuse;
+    text-align: center; }
+li{
+    text-align: center; 
+}
+p{color:aqua}
+
+.contenido{
+    text-align: center;
+    color:azure;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    padding: 20px;
+    height: 100 vh;
+}
