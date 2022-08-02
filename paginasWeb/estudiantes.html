@@ -6,75 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
+    <link href ="css/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href="css/bootstrap.min.css">
+    <script type ="text/javascript" src="js/bootstrap.bundle.min.js"> </script>
 
 </head>
 
 <style>
-    table,th,td{
-        border: 1px solid brown;
-        border-collapse: collapse;
-        margin-right: auto;
-        margin-left: auto;
-        padding-left: 25px;
-        padding-top: 25px;
-        padding-right: 25px;
-        background-color: antiquewhite;
-    }
-
-    h1{text-align: center;
-    color:aliceblue }
-    h3{text-align: center; 
-    color:powderblue}
-    li{text-align: center;}
-    a{color:chartreuse;}
+      li{text-align: center;}
 </style>
-
 
 <body>
     <body bgcolor="#212F3C">
-    <h1>LISTADO DE ESTUDIANTES</h1>
-    <li>  
+        <div class ="container" style ="background-color:slategrey">
+            <h1 class = "text-center">LISTADO DE ESTUDIANTES</h1>
+        </div>
+   <br>
+    <li calss = "text-align">  
         <a href="../home.html"> Home</a> |
         <a href=""> Estudiantes</a> |
         <a href="administradores.html">Administradores</a> |
         <a href=""> Acerca de</a>   
     </li>
+    <br><br><br>
+    <h3 class="text-center">Listado de estudiantes inscritos</h3>
+    <br><br>
 
-    <h3>Listado de estudiantes inscritos</h3>
-    <table>
-        <tr>
-            <th>Numero</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Direccion</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Fernanda</td>
-            <td>Fuentes</td>
-            <td>Guatemala</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Angelina</td>
-            <td>Borbon</td>
-            <td>España</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Marcos</td>
-            <td>Miranda</td>
-            <td>Mexico</td>
-        </tr>
-
-        <tr>
-            <td>4</td>
-            <td>David</td>
-            <td>Juarez</td>
-            <td>Chile</td>
-        </tr>
-
-    </table>
+    <div class ="container">
+        <table border= "2" class="table table-hover">
+            <tr>
+                <th>Numero</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Direccion</th>
+            </tr>
+            <tr class="table-primary" >
+                <td>1</td>
+                <td>Fernanda</td>
+                <td>Fuentes</td>
+                <td>Guatemala</td>
+            </tr>
+            <tr >
+                <td>2</td>
+                <td>Angelina</td>
+                <td>Borbon</td>
+                <td>España</td>
+            </tr>
+            <tr class = "table-success">
+                <td>3</td>
+                <td>Marcos</td>
+                <td>Miranda</td>
+                <td>Mexico</td>
+            </tr>
+    
+            <tr>
+                <td>4</td>
+                <td>David</td>
+                <td>Juarez</td>
+                <td>Chile</td>
+            </tr>
+    
+        </table>
+    </div>
+   
 
 </body>
 </html>

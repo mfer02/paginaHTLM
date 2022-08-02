@@ -4,33 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href ="css/bootstrap.min.css">
+    <link rel="stylesheet" type = "text/css" href="css/bootstrap.min.css">
+    <script type ="text/javascript" src="js/bootstrap.bundle.min.js"> </script>
     <title>Document</title>
 
 </head>
 
 <style>
-    table,th,td{
-        border: 1px solid brown;
-        border-collapse: collapse;   
-        margin-right: auto;
-        margin-left: auto;   
-        padding-left: 25px;
-        padding-top: 25px;
-        padding-right: 25px;
-        background-color: antiquewhite;
-    }
-    h1{text-align: center; 
-        color:aliceblue }
-    h3{text-align: center;
-        color:powderblue }
     li{text-align: center;}
-    a{color:chartreuse;}
 </style>
 
 
 <body>
-    <body bgcolor="#212F3C"></body>
-    <h1>LISTADO DE ADMINISTRADORES</h1>
+    <body bgcolor="#EBF5FB"></body>
+    <div class ="container" style ="background-color:slategrey">
+        <h1 class="text-center" >LISTADO DE ADMINISTRADORES</h1>
+    </div>
+
+    <br>
     <li>
         <a href="../home.html"> Home</a> |
         <a href="estudiantes.html"> Estudiantes</a> |
@@ -38,41 +30,47 @@
         <a href=""> Acerca de</a>   
     </li>
 
-    <h3>Listado de los administradores para la pagina</h3>
-    <table>
-        <tr>
-            <th>Numero</th>
-            <th>Nombre</th>
-            <th>Apellido</th>
-            <th>Carrera</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Sebastian</td>
-            <td>Gomez</td>
-            <td>Neurologo</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Naomi</td>
-            <td>Cifuentes</td>
-            <td>Odontologa</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Hassen</td>
-            <td>Alvarado</td>
-            <td>Oftalmologo</td>
-        </tr>
+    <br><br><br>
+    <h3 class= "text-center">Listado de los administradores para la pagina</h3>
+    <br><br>
+    <div class = "container">
+        <table border= "2" class = " table table-hover">
+            <tr>
+                <th>Numero</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Carrera</th>
+            </tr >
+            <tr >
+                <td>1</td>
+                <td>Sebastian</td>
+                <td>Gomez</td>
+                <td>Neurologo</td>
+            </tr>
+            <tr class = "table-success">
+                <td>2</td>
+                <td>Naomi</td>
+                <td>Cifuentes</td>
+                <td>Odontologa</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Hassen</td>
+                <td>Alvarado</td>
+                <td>Oftalmologo</td>
+            </tr>
 
-        <tr>
-            <td>4</td>
-            <td>Alessandra</td>
-            <td>Santos</td>
-            <td>Ingeniera</td>
-        </tr>
+            <tr class = "table-primary">
+                <td>4</td>
+                <td>Alessandra</td>
+                <td>Santos</td>
+                <td>Ingeniera</td>
+            </tr>
+            
+        </table>
+
+    </div>
         
-    </table>
 
 </body>
 </html>
